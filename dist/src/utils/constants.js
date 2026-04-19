@@ -1,0 +1,42 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FRAME_TYPES = exports.LOSS_THRESHOLD_MS = exports.PACKET_BUFFER_SIZE = exports.DEFAULT_REFRESH_RATE = exports.DEFAULT_INTERFACE = exports.QUIC_PORT = void 0;
+exports.QUIC_PORT = 443;
+exports.DEFAULT_INTERFACE = "eth0";
+exports.DEFAULT_REFRESH_RATE = 500;
+exports.PACKET_BUFFER_SIZE = 10 * 1024 * 1024;
+exports.LOSS_THRESHOLD_MS = 100;
+exports.FRAME_TYPES = {
+    PADDING: "0x00",
+    PING: "0x01",
+    ACK: "0x02",
+    ACK_ECN: "0x03",
+    RESET_STREAM: "0x04",
+    STOP_SENDING: "0x05",
+    CRYPTO: "0x06",
+    NEW_TOKEN: "0x07",
+    STREAM: "0x08",
+    STREAM_0x09: "0x09",
+    STREAM_0x0A: "0x0a",
+    STREAM_0x0B: "0x0b",
+    STREAM_0x0C: "0x0c",
+    STREAM_0x0D: "0x0d",
+    STREAM_0x0E: "0x0e",
+    STREAM_0x0F: "0x0f",
+    MAX_DATA: "0x10",
+    MAX_STREAM_DATA: "0x11",
+    MAX_STREAMS_BIDI: "0x12",
+    MAX_STREAMS_UNIDI: "0x13",
+    DATA_BLOCKED: "0x14",
+    STREAM_DATA_BLOCKED: "0x15",
+    STREAMS_BLOCKED_BIDI: "0x16",
+    STREAMS_BLOCKED_UNIDI: "0x17",
+    NEW_CONNECTION_ID: "0x18",
+    RETIRE_CONNECTION_ID: "0x19",
+    PATH_CHALLENGE: "0x1a",
+    PATH_RESPONSE: "0x1b",
+    CONNECTION_CLOSE: "0x1c",
+    CONNECTION_CLOSE_APP: "0x1d",
+    HANDSHAKE_DONE: "0x1e"
+};
+//# sourceMappingURL=constants.js.map

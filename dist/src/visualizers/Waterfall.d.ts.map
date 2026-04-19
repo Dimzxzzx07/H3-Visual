@@ -1,0 +1,1 @@
+{"version":3,"file":"Waterfall.d.ts","sourceRoot":"","sources":["../../../src/visualizers/Waterfall.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAElC,qBAAa,SAAS;IACpB,OAAO,CAAC,OAAO,CAAW;IAC1B,OAAO,CAAC,OAAO,CAAqB;;IAOpC,SAAS,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI;IAe/B,gBAAgB,IAAI,GAAG;IAevB,OAAO,IAAI,IAAI;CAIhB"}
